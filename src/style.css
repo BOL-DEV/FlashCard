@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+p{
+    background-color: aqua;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 1rem;
+    margin: 2rem;
+}
+
+.selected{
+    background-color: red;
+    color: white;
+}
+
